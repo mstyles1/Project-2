@@ -22,7 +22,7 @@
 
 ## Wireframe: 
 
-
+![Project2Wireframe drawio](https://github.com/user-attachments/assets/18b8fdb3-5bd6-4861-8947-a375b3d79dfd)
 
 ## Future Improvements: 
 - More CSS to style title of page.
