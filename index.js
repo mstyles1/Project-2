@@ -1,6 +1,6 @@
 async function displayData() {
   const apiGiph = "AYyh40hWbkpevIR5LRy7GIN3YSd382bx"
-  const searchQuery = document.getElementById('searchQuery')
+  const searchQuery = document.getElementById('searchQuery').value
   const endPointGet = `https://api.giphy.com/v1/gifs/search?api_key=${apiGiph}&q=${searchQuery}&limit=25&offset=0&rating=g&lang=en&bundle=messaging_non_clips`
 
     try {
