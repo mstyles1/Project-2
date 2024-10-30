@@ -12,3 +12,13 @@ body {
     padding-left: 20px;
     padding-bottom: 10px;
 }
+
+#footer {
+    color:aliceblue;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;         
+    padding-right: 5px;
+}   
