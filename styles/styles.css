@@ -1,12 +1,12 @@
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    color:cornflowerblue;
+    color: darkslategrey;
     text-align: center;
     text-shadow: 90px;
 }
 
 body {
-    background-color: darkslategrey;
+    background-color: azure;
 }
 
 #input {
@@ -19,3 +19,12 @@ body {
     outline: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+#section_search {
+    padding-left: 20px;
+}
+
+#section_image {
+    padding-top: 30px;
+}
+
