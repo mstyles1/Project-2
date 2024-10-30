@@ -10,22 +10,20 @@
 <body>
   <h1>Genuine Gifs</h1>
   <main>
-    
-    <section id="section_search">
-      <label for="">
-        <input type="text" name="" id="searchQuery">
-      </label>
-      <input type="submit" value="Search" onclick="displayData()">
-      <button type="button" onClick="window.location.reload()">
-        Clear
-      </button>
-    </section>
-
-    <section id="section_trending">
-      <label for="">
-        <input type="submit" value="Trending" onclick="displayTrending()">
-      </label>
-    </section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <section id="section_search">
+        <label for="">
+          <input type="text" name="" id="searchQuery">
+        </label>
+        <input type="submit" value="Search" onclick="displayData()">
+        <button type="button" onClick="window.location.reload()">
+          Clear
+        </button>
+        <label for="">
+          <input type="submit" value="Trending" onclick="displayTrending()">
+        </label>
+      </section>
+    </nav>
 
     <section id="section_image"></section>
 
