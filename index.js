@@ -23,6 +23,7 @@ function displayData() {
       console.error("There was a problem with the fetch operation:", error);
     });
   }
+
 async function displayTrending() {
   const apiGiph = "AYyh40hWbkpevIR5LRy7GIN3YSd382bx"
   const endPointGet = `https://api.giphy.com/v1/gifs/trending?api_key=${apiGiph}&limit=25&offset=0&rating=g&bundle=messaging_non_clips`
@@ -41,7 +42,7 @@ async function displayTrending() {
           console.log (section_image)
           console.log ("success")
         });
-      } catch {
+      } catch (error) {
       FileSystem.out.prinln("Error displaying")
   }
 } 
