@@ -1,19 +1,43 @@
-const apiKey = "ujSnZPpvqvw9qARNBrMxGzm1kKJx8vt6";
+async function displayData() {
+  const apiGiph = "AYyh40hWbkpevIR5LRy7GIN3YSd382bx"
+  const searchQuery = document.getElementById('search-box');
+  const endPointGet = `https://api.giphy.com/v1/gifs/search?api_key=${apiGiph}&q=${searchQuery}&limit=25&offset=0&rating=g&lang=en&bundle=messaging_non_clips`
 
-function searchGiph(page = 1) {
-    const searchQuery = document.getElementById('search-box').value.trim();
-    const limit = 10;
-    const offset = (page - 1) * limit;
-    const url = `https://api.giphy.com/v1/gifs/search?q=${encodeURIComponent(searchQuery)}&api_key=${apiKey}&limit=${limit}&offset=${offset}`;
-
-    fetch(url)
-        .then(response => response.json())
-        .then(json => {
-            displayGifs(json.data);
-            updatePagination(json.pagination);
-        })
-        .catch(error => {
-            console.error('Error fetching GIFs:', error);
-            document.getElementById('gif-results').innerText = 'Failed to load GIFs. Please try again later.';
+    try {
+      const response = await fetch (endPointGet)
+      let data = await response.json()
+        data.data.forEach(element => {
+          let newImage = document.createElement ("img")
+          newImage.src = element.images.original.url
+          newImage.className = "giphy_img"
+          console.log (newImage)
+  
+          let section_image = document.getElementById ("section_image")
+          section_image.appendChild (newImage)
+          console.log (section_image)
+          console.log ("success")
         });
-}
+    } catch {
+  
+    } 
+  
+    fetch(apiGiph)
+    .then(response => {
+      if (!response.ok) throw new Error("Network response was not ok.");
+      return response.json();
+    })
+    .then(data => {
+      data.data.forEach(element => {
+        const newImage = document.createElement("img");
+        newImage.src = element.images.original.url;
+        newImage.className = "giphy_img";
+  
+        const section_image = document.getElementById("section_image");
+        section_image.appendChild(newImage);
+        console.log(newImage);
+      });
+    })
+    .catch(error => {
+      console.error("There was a problem with the fetch operation:", error);
+    });
+  }
