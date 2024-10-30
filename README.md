@@ -2,31 +2,34 @@
 
 ## My website is designed to provide users with the ability to search a keyword and browse a page of gif results.
 
-![Index-Base.png]
+![Index-Base](https://github.com/user-attachments/assets/47b7442b-4335-4e8c-88ce-2b73c57306f9)
 
-## This will include a home page introducing users to the adoption program, a profile page with bios for each kitten, and a form page where they can apply.
+![Index-Searched](https://github.com/user-attachments/assets/086984f0-226c-4cd2-be90-6c74c9ff5cbe)
 
-![screenshot-4](https://github.com/user-attachments/assets/78cd5a7b-cbb2-4b2d-945f-fa0cc79cb565)
+## Once searched, they can click the "CLEAR" button to refresh the page and start over.
 
-![screenshot-3](https://github.com/user-attachments/assets/3a52f67b-6220-4222-a2a9-c2d54bf410f7)
+![Clear](https://github.com/user-attachments/assets/fe71645d-d12b-4a92-a1a4-0de87a1f8cf2)
 
-![screenshot-2](https://github.com/user-attachments/assets/21c0c170-1cd6-4fb4-9699-ad2f4d7ab7fe)
-
-## Technologies include: HTML, CSS, Bootstrap, and Git/GitHub. 
+## Technologies include: HTML, CSS, Javascript, GiphyAPI, and Git/GitHub. 
 
 ## User stories:
-- As a potential adopter, I want to view pet profiles so that I can find the cat that best fits my personality and lifestyle.
-- As a potential adopter, I want to easily find the application page so that I can submit my application efficiently.
-- As a potential adopter, I want to learn about the Cuddly Kitten Adoption Agency’s mission statement so that I can tr-ust them to be the best place to adopt a kitten.
+ - As a visitor, I want to be welcomed by a simple but useful homepage with a search bar. 
 
-## Wireflow: 
+ - As a visitor, I want to be able to enter keywords into the search bar to prompt images for browsing.
 
-![wireframe](https://github.com/user-attachments/assets/f6bed1ef-aaea-482d-87c6-8765d9f17d90)
+ - As a visitor, I want to be able to clear the page to easily enter additional search prompts. 
+
+
+## Wireframe: 
+
+
 
 ## Future Improvements: 
-- More testimonials or even a separate tab with testimonials. 
-- More stylization on images ie: borders and other background elements to make them pop.
-- More of a buffer at the bottom of each page.
+- More CSS to style title of page.
+  
+- More stylization on search bar to make it look better.
+  
+- Add grids to clean up display of resulting images. 
 
 ## LinkedIn:
 www.linkedin.com/in/matt-styles-2a079a255
