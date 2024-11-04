@@ -29,7 +29,7 @@
   
 - More stylization on search bar to make it look better.
   
-- Add grids to clean up display of resulting images. 
+- Add button to return to the top. 
 
 ## LinkedIn:
 www.linkedin.com/in/matt-styles-2a079a255
