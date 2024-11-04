@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Genuine Gifs</title>
   <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Slackey&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Danfo&family=Galindo&family=Lexend+Tera:wght@100..900&family=Slackey&display=swap" rel="stylesheet">
   <script src="./index.js"></script>
 </head>
 <body>
@@ -13,24 +19,30 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <section id="section_search">
         <label for="">
-          <input type="text" name="" id="searchQuery">
+          <input type="text" name="" id="searchQuery" class = "search_bar">
         </label>
-        <input type="submit" value="Search" onclick="displayData()">
+        <input type="submit" value="Search" onclick="displayData()" class="bar_button">
   
         <label for="">
-          <input type="submit" value="Trending" onclick="displayTrending()">
+          <input type="submit" value="Trending" onclick="displayTrending()" class="bar_button">
         </label>
 
-        <button type="button" onClick="window.location.reload()">
+        <button type="button" onClick="window.location.reload()" class="bar_button">
           Clear
         </button>
       </section>
     </nav>
 
-    <section id="section_image"></section>
-    <footer>
-      <p> &copy; 2024 Genuine Gifs. All rights reserved.</p>
-    </footer>
+    <section id="section_image">
+      <div class="row">
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+      </div>
+    </section>
   </main>
+  <footer>
+    <p> &copy; Genuine Gifs </p>
+  </footer>
 </body>
 </html>

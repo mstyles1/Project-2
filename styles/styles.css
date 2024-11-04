@@ -1,24 +1,51 @@
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: lightcyan;
+    font-family: "Slackey";
+    color: lightgreen;
     text-align: center;
+    font-size: 70px;
 }
 
 body {
     background-color: black;
 }
 
-#section_search {
-    padding-left: 20px;
-    padding-bottom: 10px;
-}
-
-#footer {
+footer {
     color:aliceblue;
-    background-color: aliceblue;
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 2.5rem;         
     padding-right: 5px;
 }   
+
+#section_search {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}  
+
+.search_bar {
+    background-color:cornsilk;
+    font-family: "Galindo";
+    width: 150px;
+    height: 30px;
+}
+
+.bar_button {
+    background-color: lightskyblue;
+    font-family: "Galindo";
+    width: 100px;
+    height: 30px;
+}
+
+.slackey-regular {
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.galindo-regular {
+    font-family: "Galindo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
