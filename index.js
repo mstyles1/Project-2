@@ -17,7 +17,7 @@ async function displayData() {
         console.log (section_image)
         console.log ("success")
       });
-      
+
     } catch (error) {
     FileSystem.out.prinln("Error displaying")
     console.log (error)
