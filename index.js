@@ -46,3 +46,25 @@ async function displayTrending() {
       console.log (error)
   }
 } 
+
+async function displayRandom (){
+  const apiGiph = "AYyh40hWbkpevIR5LRy7GIN3YSd382bx" 
+  const endPointGet = `https://api.giphy.com/v1/gifs/random?api_key=${apiGiph}&tag=&rating=g` 
+
+  try {
+    const response = await fetch (endPointGet)
+    let data = await response.json()
+    let newImage = document.createElement ("img")
+    newImage.src = data.data.images.original.url
+    newImage.className = "giphy_img"
+    console.log (newImage)
+
+    let section_image = document.getElementById ("section_image")
+    section_image.appendChild (newImage)
+    console.log (section_image)
+    console.log ("success")
+  } catch (error) {
+    FileSystem.out.prinln("Error displaying")
+    console.log (error)
+  }
+}
