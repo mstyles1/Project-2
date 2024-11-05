@@ -1,6 +1,6 @@
 # Matt Styles
 
-## My website is designed to provide users with the ability to search a keyword and browse a page of gif results.
+## My website is designed to provide users with the ability to search a keyword and browse a page of gif results. It utilizes API keys to provide the user with a library of Gifs for browsing and saving purposes.
 
 ![Index-Base](https://github.com/user-attachments/assets/47b7442b-4335-4e8c-88ce-2b73c57306f9)
 
@@ -10,7 +10,13 @@
 
 ![Clear](https://github.com/user-attachments/assets/fe71645d-d12b-4a92-a1a4-0de87a1f8cf2)
 
-## Technologies include: HTML, CSS, Javascript, GiphyAPI, and Git/GitHub. 
+## Technologies include: 
+ - HTML 
+ - CSS 
+ - Javascript 
+ - Asynchronous
+ - API
+ - Git/GitHub
 
 ## User stories:
  - As a visitor, I want to be welcomed by a simple but useful homepage with a search bar. 
@@ -32,4 +38,4 @@
 - Add button to return to the top. 
 
 ## LinkedIn:
-![LinkedIn](www.linkedin.com/in/matt-styles-2a079a255)
+[LinkedIn](https://linkedin.com/in/matt-styles-2a079a255)
