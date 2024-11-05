@@ -25,9 +25,9 @@
 ![Project2Wireframe drawio](https://github.com/user-attachments/assets/18b8fdb3-5bd6-4861-8947-a375b3d79dfd)
 
 ## Future Improvements: 
-- More CSS to style title of page.
+- Better Grid Layout for displaying results on Trending and Search. 
   
-- More stylization on search bar to make it look better.
+- Limit results and add next and previous buttons that navigate between pages of results. 
   
 - Add button to return to the top. 
 

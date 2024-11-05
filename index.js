@@ -41,7 +41,7 @@ async function displayTrending() {
   }
 } 
 
-async function displayRandom (){
+async function displayRandom () {
   const apiGiph = "AYyh40hWbkpevIR5LRy7GIN3YSd382bx" 
   const endPointGet = `https://api.giphy.com/v1/gifs/random?api_key=${apiGiph}&tag=&rating=g` 
 
