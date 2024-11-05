@@ -32,4 +32,4 @@
 - Add button to return to the top. 
 
 ## LinkedIn:
-www.linkedin.com/in/matt-styles-2a079a255
+![LinkedIn](www.linkedin.com/in/matt-styles-2a079a255)
